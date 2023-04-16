@@ -1,0 +1,11 @@
+C:\Users\berat\OneDrive\Masaüstü\görsel tabanlı programlama\bahar_dönemi_proje\bahar_dönemi_proje\bin\Debug\bahar_dönemi_proje.exe.config
+C:\Users\berat\OneDrive\Masaüstü\görsel tabanlı programlama\bahar_dönemi_proje\bahar_dönemi_proje\bin\Debug\bahar_dönemi_proje.exe
+C:\Users\berat\OneDrive\Masaüstü\görsel tabanlı programlama\bahar_dönemi_proje\bahar_dönemi_proje\bin\Debug\bahar_dönemi_proje.pdb
+C:\Users\berat\OneDrive\Masaüstü\görsel tabanlı programlama\bahar_dönemi_proje\bahar_dönemi_proje\obj\Debug\bahar_dönemi_proje.csproj.AssemblyReference.cache
+C:\Users\berat\OneDrive\Masaüstü\görsel tabanlı programlama\bahar_dönemi_proje\bahar_dönemi_proje\obj\Debug\bahar_dönemi_proje.Properties.Resources.resources
+C:\Users\berat\OneDrive\Masaüstü\görsel tabanlı programlama\bahar_dönemi_proje\bahar_dönemi_proje\obj\Debug\bahar_dönemi_proje.csproj.GenerateResource.cache
+C:\Users\berat\OneDrive\Masaüstü\görsel tabanlı programlama\bahar_dönemi_proje\bahar_dönemi_proje\obj\Debug\bahar_dönemi_proje.csproj.CoreCompileInputs.cache
+C:\Users\berat\OneDrive\Masaüstü\görsel tabanlı programlama\bahar_dönemi_proje\bahar_dönemi_proje\obj\Debug\bahar_dönemi_proje.exe
+C:\Users\berat\OneDrive\Masaüstü\görsel tabanlı programlama\bahar_dönemi_proje\bahar_dönemi_proje\obj\Debug\bahar_dönemi_proje.pdb
+C:\Users\berat\OneDrive\Masaüstü\görsel tabanlı programlama\bahar_dönemi_proje\bahar_dönemi_proje\obj\Debug\bahar_dönemi_proje.KayitEkranı.resources
+C:\Users\berat\OneDrive\Masaüstü\görsel tabanlı programlama\bahar_dönemi_proje\bahar_dönemi_proje\obj\Debug\bahar_dönemi_proje.LoginPage.resources
