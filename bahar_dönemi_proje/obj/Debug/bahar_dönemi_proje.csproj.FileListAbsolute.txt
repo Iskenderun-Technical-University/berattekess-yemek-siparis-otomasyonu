@@ -9,3 +9,4 @@ C:\Users\berat\OneDrive\Masaüstü\görsel tabanlı programlama\bahar_dönemi_pr
 C:\Users\berat\OneDrive\Masaüstü\görsel tabanlı programlama\bahar_dönemi_proje\bahar_dönemi_proje\obj\Debug\bahar_dönemi_proje.pdb
 C:\Users\berat\OneDrive\Masaüstü\görsel tabanlı programlama\bahar_dönemi_proje\bahar_dönemi_proje\obj\Debug\bahar_dönemi_proje.KayitEkranı.resources
 C:\Users\berat\OneDrive\Masaüstü\görsel tabanlı programlama\bahar_dönemi_proje\bahar_dönemi_proje\obj\Debug\bahar_dönemi_proje.LoginPage.resources
+C:\Users\berat\OneDrive\Masaüstü\görsel tabanlı programlama\bahar_dönemi_proje\bahar_dönemi_proje\obj\Debug\bahar_dönemi_proje.SiparisEkrani.resources

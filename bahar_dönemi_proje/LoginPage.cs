@@ -34,7 +34,9 @@ namespace bahar_dönemi_proje
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if(checkBox1.CheckState == CheckState.Checked)
+            /* kayıt ekranında parola kutularının gizliliğini belirleme */
+
+            if (checkBox1.CheckState == CheckState.Checked)
             {
                 kullanici_sifre.UseSystemPasswordChar = true;
                 checkBox1.Text = " Parolayı Gizle";
@@ -61,7 +63,16 @@ namespace bahar_dönemi_proje
         {
             String kullaniciAd = "admin";
             String KullaniciSifre = "123";
-
+            
+            if(kullanici_ad.Text == kullaniciAd && kullanici_sifre.Text == KullaniciSifre)
+            {
+                SiparisEkrani siparis = new SiparisEkrani();
+                siparis.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("HATALI GİRİŞ..." + "\n" + "Tekrar Deneyiniz");
+            }
           
         }
 
