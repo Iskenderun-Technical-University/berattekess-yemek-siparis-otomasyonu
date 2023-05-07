@@ -2,7 +2,7 @@
 donem-projesi-berattekess created by GitHub Classroom
 
 ## MOTİVASYON
-Günümüzde yemek sipariş uygulamaları ile kullanıcılar, istedikleri restoranlardan kolayca yemek sipariş edebilir, ödeme yapabilir,restoranlar, uygulama aracılığıyla müşteri kitlesini genişletebilir, restorantlar siparişleri daha hızlı ve verimli bir şekilde yönetebilir, müşteri memnuniyetini artırabilir ve gelirlerini artırabilirler.Bu yönde çok talep olduğu için yemek sipariş otomasyonu yapmaya karar verdim.
+Günümüzde yemek sipariş uygulamaları ile kullanıcılar, istedikleri restoranlardan kolayca yemek sipariş edebilir, ödeme yapabilir,restoranlar, uygulama aracılığıyla müşteri kitlesini genişletebilir, siparişleri daha hızlı ve verimli bir şekilde yönetebilir, müşteri memnuniyetini ve gelirlerini artırabilirler.Bu yönde çok talep olduğu için yemek sipariş otomasyonu yapmaya karar verdim.
  
  ## AMAÇ
  -Uygulama, kullanıcıların kolayca kayıt olmasına, giriş yapmasına ve çıkış yapmasına olanak tanıyacaktır.
