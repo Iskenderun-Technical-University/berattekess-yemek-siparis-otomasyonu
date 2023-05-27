@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.Sql;
+using System.Data.SqlClient;
 namespace bahar_dönemi_proje
 {
     public partial class LoginPage : Form
@@ -17,6 +18,7 @@ namespace bahar_dönemi_proje
             InitializeComponent();
         }
 
+        SqlConnection baglanti = new SqlConnection(@"Data Source=.;Initial Catalog=SqlSiparisDb;Integrated Security=True");
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -61,24 +63,31 @@ namespace bahar_dönemi_proje
 
         private void btnGiris_Click(object sender, EventArgs e)
         {
-            String kullaniciAd = "admin";
-            String KullaniciSifre = "123";
-            
-            if(kullanici_ad.Text == kullaniciAd && kullanici_sifre.Text == KullaniciSifre)
-            {
+
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("select *from KullaniciKayitt where RegNickName='"+kullanici_ad.Text+"'and RegPassword ='" +kullanici_sifre.Text+"'", baglanti);
+            SqlDataAdapter dr = komut.ExecuteReader();
+            if (dr!=null) {
                 SiparisEkrani siparis = new SiparisEkrani();
                 siparis.ShowDialog();
             }
+
             else
             {
-                MessageBox.Show("HATALI GİRİŞ..." + "\n" + "Tekrar Deneyiniz");
+                MessageBox.Show("HATALI GİRİŞ..." + "\n" + "Tekrar Deneyiniz", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            baglanti.Close();
           
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void LoginPage_Shown(object sender, EventArgs e)
+        {
+            kullanici_ad.Focus();
         }
     }
 }

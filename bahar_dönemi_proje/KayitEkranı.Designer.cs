@@ -36,7 +36,7 @@ namespace bahar_dönemi_proje
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.kayit_ad = new System.Windows.Forms.TextBox();
+            this.kayit_adSoyad = new System.Windows.Forms.TextBox();
             this.kayit_kullaniciAd = new System.Windows.Forms.TextBox();
             this.kayit_parola = new System.Windows.Forms.TextBox();
             this.kayit_telefon = new System.Windows.Forms.MaskedTextBox();
@@ -48,7 +48,7 @@ namespace bahar_dönemi_proje
             this.kayit_dogum_tarihi = new System.Windows.Forms.DateTimePicker();
             this.kayit_eposta2 = new System.Windows.Forms.ComboBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.kayit_soyad = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -57,7 +57,7 @@ namespace bahar_dönemi_proje
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(167, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 16);
+            this.label1.Size = new System.Drawing.Size(71, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ad-Soyad:";
             // 
@@ -67,7 +67,7 @@ namespace bahar_dönemi_proje
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(166, 54);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 16);
+            this.label2.Size = new System.Drawing.Size(79, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Kullanıcı Ad:";
             // 
@@ -77,7 +77,7 @@ namespace bahar_dönemi_proje
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.Location = new System.Drawing.Point(167, 89);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 16);
+            this.label3.Size = new System.Drawing.Size(50, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Parola:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -88,7 +88,7 @@ namespace bahar_dönemi_proje
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.Location = new System.Drawing.Point(167, 164);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 16);
+            this.label4.Size = new System.Drawing.Size(57, 16);
             this.label4.TabIndex = 3;
             this.label4.Text = "E-posta:";
             // 
@@ -98,7 +98,7 @@ namespace bahar_dönemi_proje
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.Location = new System.Drawing.Point(167, 201);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 16);
+            this.label5.Size = new System.Drawing.Size(91, 16);
             this.label5.TabIndex = 4;
             this.label5.Text = "Doğum Tarihi:";
             // 
@@ -108,7 +108,7 @@ namespace bahar_dönemi_proje
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.Location = new System.Drawing.Point(167, 245);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 16);
+            this.label6.Size = new System.Drawing.Size(56, 16);
             this.label6.TabIndex = 5;
             this.label6.Text = "Telefon:";
             // 
@@ -118,18 +118,18 @@ namespace bahar_dönemi_proje
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.Location = new System.Drawing.Point(166, 319);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(47, 16);
+            this.label7.Size = new System.Drawing.Size(46, 16);
             this.label7.TabIndex = 6;
             this.label7.Text = "Adres:";
             // 
-            // kayit_ad
+            // kayit_adSoyad
             // 
-            this.kayit_ad.Location = new System.Drawing.Point(279, 12);
-            this.kayit_ad.Multiline = true;
-            this.kayit_ad.Name = "kayit_ad";
-            this.kayit_ad.Size = new System.Drawing.Size(137, 20);
-            this.kayit_ad.TabIndex = 7;
-            this.kayit_ad.TextChanged += new System.EventHandler(this.kayit_ad_soyad_TextChanged);
+            this.kayit_adSoyad.Location = new System.Drawing.Point(279, 12);
+            this.kayit_adSoyad.Multiline = true;
+            this.kayit_adSoyad.Name = "kayit_adSoyad";
+            this.kayit_adSoyad.Size = new System.Drawing.Size(137, 20);
+            this.kayit_adSoyad.TabIndex = 1;
+            this.kayit_adSoyad.TextChanged += new System.EventHandler(this.kayit_ad_soyad_TextChanged);
             // 
             // kayit_kullaniciAd
             // 
@@ -137,7 +137,7 @@ namespace bahar_dönemi_proje
             this.kayit_kullaniciAd.Multiline = true;
             this.kayit_kullaniciAd.Name = "kayit_kullaniciAd";
             this.kayit_kullaniciAd.Size = new System.Drawing.Size(137, 20);
-            this.kayit_kullaniciAd.TabIndex = 8;
+            this.kayit_kullaniciAd.TabIndex = 3;
             // 
             // kayit_parola
             // 
@@ -146,7 +146,7 @@ namespace bahar_dönemi_proje
             this.kayit_parola.Name = "kayit_parola";
             this.kayit_parola.PasswordChar = '*';
             this.kayit_parola.Size = new System.Drawing.Size(137, 20);
-            this.kayit_parola.TabIndex = 9;
+            this.kayit_parola.TabIndex = 4;
             this.kayit_parola.TextChanged += new System.EventHandler(this.kayit_parola_TextChanged);
             // 
             // kayit_telefon
@@ -155,7 +155,7 @@ namespace bahar_dönemi_proje
             this.kayit_telefon.Mask = "(999) 000-0000";
             this.kayit_telefon.Name = "kayit_telefon";
             this.kayit_telefon.Size = new System.Drawing.Size(100, 20);
-            this.kayit_telefon.TabIndex = 11;
+            this.kayit_telefon.TabIndex = 10;
             // 
             // kayit_eposta
             // 
@@ -163,14 +163,14 @@ namespace bahar_dönemi_proje
             this.kayit_eposta.Multiline = true;
             this.kayit_eposta.Name = "kayit_eposta";
             this.kayit_eposta.Size = new System.Drawing.Size(88, 20);
-            this.kayit_eposta.TabIndex = 12;
+            this.kayit_eposta.TabIndex = 7;
             // 
             // kayit_adres
             // 
             this.kayit_adres.Location = new System.Drawing.Point(279, 274);
             this.kayit_adres.Name = "kayit_adres";
             this.kayit_adres.Size = new System.Drawing.Size(339, 61);
-            this.kayit_adres.TabIndex = 13;
+            this.kayit_adres.TabIndex = 11;
             this.kayit_adres.Text = "";
             // 
             // label8
@@ -179,7 +179,7 @@ namespace bahar_dönemi_proje
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label8.Location = new System.Drawing.Point(167, 128);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(102, 16);
+            this.label8.Size = new System.Drawing.Size(101, 16);
             this.label8.TabIndex = 15;
             this.label8.Text = "Parola Doğrula:";
             // 
@@ -190,14 +190,14 @@ namespace bahar_dönemi_proje
             this.kayit_parola2.Name = "kayit_parola2";
             this.kayit_parola2.PasswordChar = '*';
             this.kayit_parola2.Size = new System.Drawing.Size(137, 20);
-            this.kayit_parola2.TabIndex = 16;
+            this.kayit_parola2.TabIndex = 5;
             // 
             // btn_kayit
             // 
             this.btn_kayit.Location = new System.Drawing.Point(302, 341);
             this.btn_kayit.Name = "btn_kayit";
             this.btn_kayit.Size = new System.Drawing.Size(103, 33);
-            this.btn_kayit.TabIndex = 18;
+            this.btn_kayit.TabIndex = 12;
             this.btn_kayit.Text = "Kayıt Oluştur";
             this.btn_kayit.UseVisualStyleBackColor = true;
             this.btn_kayit.Click += new System.EventHandler(this.btn_kayit_Click);
@@ -211,7 +211,7 @@ namespace bahar_dönemi_proje
             this.kayit_dogum_tarihi.Name = "kayit_dogum_tarihi";
             this.kayit_dogum_tarihi.ShowUpDown = true;
             this.kayit_dogum_tarihi.Size = new System.Drawing.Size(112, 20);
-            this.kayit_dogum_tarihi.TabIndex = 19;
+            this.kayit_dogum_tarihi.TabIndex = 9;
             this.kayit_dogum_tarihi.ValueChanged += new System.EventHandler(this.kayit_dogum_tarihi_ValueChanged);
             // 
             // kayit_eposta2
@@ -226,7 +226,8 @@ namespace bahar_dönemi_proje
             this.kayit_eposta2.Location = new System.Drawing.Point(373, 159);
             this.kayit_eposta2.Name = "kayit_eposta2";
             this.kayit_eposta2.Size = new System.Drawing.Size(85, 21);
-            this.kayit_eposta2.TabIndex = 20;
+            this.kayit_eposta2.TabIndex = 8;
+            this.kayit_eposta2.SelectedIndexChanged += new System.EventHandler(this.kayit_eposta2_SelectedIndexChanged);
             // 
             // checkBox1
             // 
@@ -234,26 +235,28 @@ namespace bahar_dönemi_proje
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.checkBox1.Location = new System.Drawing.Point(447, 107);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(117, 20);
-            this.checkBox1.TabIndex = 21;
+            this.checkBox1.Size = new System.Drawing.Size(116, 20);
+            this.checkBox1.TabIndex = 6;
             this.checkBox1.Text = "parolayı göster";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // kayit_soyad
+            // button1
             // 
-            this.kayit_soyad.Location = new System.Drawing.Point(427, 12);
-            this.kayit_soyad.Multiline = true;
-            this.kayit_soyad.Name = "kayit_soyad";
-            this.kayit_soyad.Size = new System.Drawing.Size(137, 20);
-            this.kayit_soyad.TabIndex = 22;
+            this.button1.Location = new System.Drawing.Point(0, 427);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Geri";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
             // 
             // KayitEkranı
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.kayit_soyad);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.kayit_eposta2);
             this.Controls.Add(this.kayit_dogum_tarihi);
@@ -265,7 +268,7 @@ namespace bahar_dönemi_proje
             this.Controls.Add(this.kayit_telefon);
             this.Controls.Add(this.kayit_parola);
             this.Controls.Add(this.kayit_kullaniciAd);
-            this.Controls.Add(this.kayit_ad);
+            this.Controls.Add(this.kayit_adSoyad);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -275,8 +278,9 @@ namespace bahar_dönemi_proje
             this.Controls.Add(this.label1);
             this.Name = "KayitEkranı";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "KayitEkranı";
+            this.Text = "1";
             this.Load += new System.EventHandler(this.KayitEkranı_Load);
+            this.Shown += new System.EventHandler(this.KayitEkranı_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -291,7 +295,7 @@ namespace bahar_dönemi_proje
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox kayit_ad;
+        private System.Windows.Forms.TextBox kayit_adSoyad;
         private System.Windows.Forms.TextBox kayit_kullaniciAd;
         private System.Windows.Forms.TextBox kayit_parola;
         private System.Windows.Forms.MaskedTextBox kayit_telefon;
@@ -303,6 +307,6 @@ namespace bahar_dönemi_proje
         private System.Windows.Forms.DateTimePicker kayit_dogum_tarihi;
         private System.Windows.Forms.ComboBox kayit_eposta2;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox kayit_soyad;
+        private System.Windows.Forms.Button button1;
     }
 }

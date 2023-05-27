@@ -66,7 +66,7 @@ namespace bahar_dönemi_proje
             this.kullanici_ad.Multiline = true;
             this.kullanici_ad.Name = "kullanici_ad";
             this.kullanici_ad.Size = new System.Drawing.Size(154, 20);
-            this.kullanici_ad.TabIndex = 2;
+            this.kullanici_ad.TabIndex = 1;
             this.kullanici_ad.TextChanged += new System.EventHandler(this.kullanici_ad_TextChanged);
             // 
             // kullanici_sifre
@@ -76,7 +76,7 @@ namespace bahar_dönemi_proje
             this.kullanici_sifre.Name = "kullanici_sifre";
             this.kullanici_sifre.PasswordChar = '*';
             this.kullanici_sifre.Size = new System.Drawing.Size(154, 20);
-            this.kullanici_sifre.TabIndex = 3;
+            this.kullanici_sifre.TabIndex = 2;
             // 
             // btnKayit
             // 
@@ -105,7 +105,7 @@ namespace bahar_dönemi_proje
             this.checkBox1.Location = new System.Drawing.Point(489, 232);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(120, 20);
-            this.checkBox1.TabIndex = 7;
+            this.checkBox1.TabIndex = 3;
             this.checkBox1.Text = "Parolayı Göster";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
@@ -115,7 +115,7 @@ namespace bahar_dönemi_proje
             this.btnGiris.Location = new System.Drawing.Point(282, 315);
             this.btnGiris.Name = "btnGiris";
             this.btnGiris.Size = new System.Drawing.Size(88, 45);
-            this.btnGiris.TabIndex = 8;
+            this.btnGiris.TabIndex = 4;
             this.btnGiris.Text = "Giriş Yap";
             this.btnGiris.UseVisualStyleBackColor = true;
             this.btnGiris.Click += new System.EventHandler(this.btnGiris_Click);
@@ -137,6 +137,7 @@ namespace bahar_dönemi_proje
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kullanı Giriş Paneli";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Shown += new System.EventHandler(this.LoginPage_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
